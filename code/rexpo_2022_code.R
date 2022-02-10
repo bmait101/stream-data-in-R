@@ -17,14 +17,14 @@ pkgs <- c(
   "janitor",        # for cleaning variable names
   "sf",             # for working with spatial data
   "nngeo",          # for nearest neighbor spatial joins
-  "wdnr.gis",       # for layers from WDNR ArcGIS API (paul.frater@wisconsin.gov)
+  "wdnr.gis",       # for WDNR layers via ArcGIS API (paul.frater@wisconsin.gov)
   "dataRetrieval"   # for USGS data pulls
   )
 
 vapply(pkgs, library, logical(1L),
        character.only = TRUE, logical.return = TRUE)
 
-# Check working directior
+# Check working directory
 here()
 # Let's set the plotting theme
 theme_set(theme_bw(base_family = "sans", base_size = 12))
