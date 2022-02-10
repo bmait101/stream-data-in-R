@@ -1,5 +1,5 @@
 # Working with stream data in R - 2022 WI AFS R Expo
-# Bryan M Maitland  
+# Bryan M Maitland  (bmaitland101@gmail.com)
 # 9 Feb 2022
 
 
@@ -13,11 +13,11 @@
 # Packages
 pkgs <- c(
   "tidyverse",      # for pipe, readr, dplyr, ggplot2, purrr, etc.
-  "here",           # a better way to find project files
+  "here",           # for a better way to find project files
   "janitor",        # for cleaning variable names
   "sf",             # for working with spatial data
   "nngeo",          # for nearest neighbor spatial joins
-  "wdnr.gis",       # for spatial layers from WDNR ArcGIS Rest API
+  "wdnr.gis",       # for layers from WDNR ArcGIS API (paul.frater@wisconsin.gov)
   "dataRetrieval"   # for USGS data pulls
   )
 
